@@ -1,11 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>hello, YanzMing</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <title>简历-闫正明</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./font/iconfont.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- <h1 class="animate__animated animate__bounce">An animated element</h1> -->
+      <!-- 头部 -->
+      <header class="header-content">
+        <div  class="animate__animated animate__bounceInLeft">
+          <img src="./images/cover.png" class="cover" alt="头像" />
+        </div>
+        <!-- 名称信息 -->
+        <div class="name-information animate__animated animate__bounceInRight">
+          <div class="basic-info">
+            <h1 class="name">闫正明</h1>
+            <h1>Java开发工程师</h1>
+          </div>
+          <div>
+            <span>本科/4年开发经验</span>
+          </div>
+          <!-- 其他信息 -->
+          <div class="basic-info">
+            <div class="info">
+              <p><span>出生年月：</span>1995-01</p>
+              <p>电话/微信：178-6255-0512</p>
+            </div>
+            <div class="info">
+              <p>现居：山东聊城</p>
+              <p>邮箱：mingoll@outlook.com</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- 主要部分 -->
+      <main class="main-part">
+        <!-- 技能证书 -->
+        <div class="header-title">
+          <h2>技能证书 | Skills</h2>
+          <div class="skills">
+            <div class="title">MTA微软国际认证 | 工信部认证</div>
+            <!-- 技能 -->
+            <div>
+              <p class="iconfont icon-yifadan">
+                <span class="skills-item"
+                  >掌握Spring Cloud
+                  Alibaba微服务技术栈、ES、Sa-Token、MyBatis-Plus</span
+                >
+              </p>
+              <p class="iconfont icon-yifadan">
+                <span class="skills-item"
+                  >掌握Spring、SpringBoot、Spring
+                  Security、SpringMVC、MyBatis、Shiro等 框架及Spring IOC、Spring
+                  AOP、MVC模式的Java Web编程思想</span
+                >
+              </p>
+              <p class="iconfont icon-yifadan">
+                <span class="skills-item"
+                  >熟悉常用的设计模式、面向对象编程思想，有良好的编码习惯</span
+                >
+              </p>
+              <p class="iconfont icon-yifadan">
+                <span class="skills-item">电信ctwing物联网平台开发经验</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- 项目经历 -->
+        <div class="header-title">
+          <h2>项目经历 | Experience</h2>
+          <div>
+            <div class="time-project">
+              <div>2024.05 - 至今</div>
+              <div>东方电鳗平台</div>
+            </div>
+            <!-- 项目描述等等 -->
+            <div class="info-project">
+              <p>项目描述：</p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item"
+                  >拆分安吉保app单体应用为微服务架构</span
+                >
+              </p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item"
+                  >当前架构为maven聚合项目，将跨服务调度抽离到common模块</span
+                >
+              </p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item">解决相互依赖问题</span>
+              </p>
+              <p>技术选型：Spring Cloud Alibaba微服务技术栈</p>
+              <p>开发环境：wsl-ubuntu、docker、idea、jdk11</p>
+              <p>责任描述：</p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item">拆分应用</span>
+              </p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item"
+                  >抽离跨服务调度使用OpenFeign进行封装</span
+                >
+              </p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item">Gateway网关实现统一认证鉴权</span>
+              </p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item"
+                  >第三方服务限流调度配置，如：拆分封装ctwing接入服务，配置QPS及线程数</span
+                >
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="time-project">
+              <div>2024.02 - 2024.05</div>
+              <div>兰考应急救援实训基地applet后台</div>
+            </div>
+            <!-- 项目描述等等 -->
+            <div class="info-project">
+              <p>项目描述：</p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item">兰考应急救援实训基地线上小程序</span>
+              </p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item"
+                  >该系统分为积分商城、线上售票、基地信息、个人中心、核销模块</span
+                >
+              </p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item">采用maven聚合单体分层架构</span>
+              </p>
+              <p>
+                技术选型：Spring
+                Boot、Sa-Token、Redis、ElasticSearch、MinIO、RabbitMQ、MyBatis-Plus
+              </p>
+              <p>开发环境：wsl-ubuntu、docker、idea、jdk11</p>
+              <p>责任描述：</p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item"
+                  >系统的整体设计、开发维护、单元测试、部署上线等工作。</span
+                >
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="time-project">
+              <div>2021.09 - 2021.11</div>
+              <div>安吉保app后台</div>
+            </div>
+            <!-- 项目描述等等 -->
+            <div class="info-project">
+              <p>项目描述：</p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item">适用干消防安防类智能产品</span>
+              </p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item"
+                  >分为购物商城、安全常识博客、智慧消防、社区服务四大模块</span
+                >
+              </p>
+              <p>
+                技术选型：spring boot、spring
+                security、redis、netty、mybatis-plus、mq(emqx)
+              </p>
+              <p>责任描述：</p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item"
+                  >对接快递鸟物流平台，完善商城购物中对物流的需求部分</span
+                >
+              </p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item">
+                  对接电信ctwing平台，部分硬件设备通过该平台接入</span
+                >
+              </p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item"> 海曼、电道夫等其他三方硬件接入</span>
+              </p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item">
+                  重构权限模块，由之前权限注解@PreAuthorize改为动态数据库权限，通过查询数据库请求的uri所需权限与访问者进行校验</span
+                >
+              </p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item"> Netty WebSocket搭建客服系统</span>
+              </p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item"> 开发维护、单元测试等工作</span>
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="time-project">
+              <div>2021.03 - 2021.07</div>
+              <div>车辆二次分析系统</div>
+            </div>
+            <!-- 项目描述等等 -->
+            <div class="info-project">
+              <p>项目描述：</p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item">该系统分为用户模块/搜车模块/报警模块/布控模块/卡口模块等多个模块。</span>
+              </p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item"
+                  >同步公安系统数据库中数据做二次分析, 如: 识别开车打电话/未系安全带等</span
+                >
+              </p>
+              <p class="iconfont icon-font_icon text-icon">
+                <span class="skills-item"
+                  >定位某一车牌行进路线, 按照时间正序绘制路口路线, 统计路口过往车辆峰值等</span
+                >
+              </p>
+              <p>
+                技术选型：Spring Cloud Alibaba、Nacos、Sentinel、Seata、RocketMQ、
+                Spring Security、Redis、ElasticSearch、MyBatis-Plus、canal ...
+              </p>
+              <p>
+                开发环境：idea、wsl1-centos、jdk8
+              </p>
+              <p>责任描述：</p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item"
+                  >对接公安系统业务数据，拉取车辆数据信息，利用MySQL主备复制原理，使用canal模拟MySQL slave交互协议，dump到master，接收并解析binlog日志且推送到ES实现数据同步。</span
+                >
+              </p>
+              <p class="iconfont icon-luyin text-icon">
+                <span class="skills-item">
+                    用户模块及搜车模块的相关业务实现</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- 工作经历 -->
+        <div class="header-title">
+          <h2>工作经历 | Experience</h2>
+          <div>
+            <div class="time-project">
+              <div>2021.08 - 至今</div>
+              <div>沃尔夫曼消防装备有限公司</div>
+              <div>Java开发工程师</div>
+            </div>
+            <div class="info-project">
+              <p class="iconfont icon-sijiaoxing">
+                <span class="skills-item"
+                  >参与项目开发工作，负责系统的架构设计与实现。</span
+                >
+              </p>
+              <p class="iconfont icon-sijiaoxing">
+                <span class="skills-item"
+                  >编写项目文档，完成项目开发和测试，做好开发后期的维护工作。</span
+                >
+              </p>
+              <p class="iconfont icon-sijiaoxing">
+                <span class="skills-item"
+                  >开发和持续改进该心系统，解决出现的问题和缺陷，保障服务稳定、快速、安全运行。</span
+                >
+              </p>
+              <p class="iconfont icon-sijiaoxing">
+                <span class="skills-item"
+                  >硬件产品接入，如：ctwing接入、自定义socket协议接入等。</span
+                >
+              </p>
+              <p class="iconfont icon-sijiaoxing">
+                <span class="skills-item"
+                  >先后参与应急指挥管理系统、战勒保障系统、爱安行、消防车联网分析系统、ERP管理系统等多个项目的开发工作。</span
+                >
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="time-project">
+              <div>2020.05 - 2021.08</div>
+              <div>聊城市诚浩远通网络技术有限公司</div>
+              <div>Java开发工程师</div>
+            </div>
+            <div class="info-project">
+              <p class="iconfont icon-sijiaoxing">
+                <span class="skills-item"
+                  >参与项目开发工作，完成相应需术的分析、详细设计、编码和单元测试工作。</span
+                >
+              </p>
+              <p class="iconfont icon-sijiaoxing">
+                <span class="skills-item">
+                  按项目要术编写产品技术文档准确描述和解释业务需术、解决方案。</span
+                >
+              </p>
+              <p class="iconfont icon-sijiaoxing">
+                <span class="skills-item"
+                  >负责系统优化，协助解决项目开发过程中的技术难题。</span
+                >
+              </p>
+              <p class="iconfont icon-sijiaoxing">
+                <span class="skills-item"
+                  >先后参与车辆二次分析系统、看守所方客登记系统等多个项目的开发工作。</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- 教育背景 -->
+        <div class="header-title">
+          <h2>教育背景 | Education</h2>
+          <div>
+            <div class="time-project-education xian">
+              <div>2014.09 - 2020.07</div>
+              <div>山东体育学院</div>
+              <div>本科</div>
+            </div>
+            <div class="time-project-education">
+              <div>2015.09 - 2017.09</div>
+              <div>武警山西总队某部</div>
+              <div>武警特战</div>
+            </div>
+          </div>
+        </div>
+        <!-- 自我评价 -->
+        <div class="header-title">
+          <h2>自我评价 | About me</h2>
+          <ul>
+            <li>热爱开发：</li>
+            <li>具有良好的学习能力和应变能力：</li>
+            <li>做事稳重踏实，对待工作认真负责，细致且有耐心；</li>
+            <li>能吃苦，肯吃苦，抗压能九较强；</li>
+            <li>具有较强的自制力，脚踏实地，做事情始终坚持有始有终；</li>
+            <li>勤干思考，总结能力和自我纠错能力较强；</li>
+            <li>性格开朗、热情、随和，易干与人交往；</li>
+            <li>为人坦诚、守信、自信，具有团队精神；</li>
+            <li>敢干面对风险，承担压力，乐干从事挑战性工作。</li>
+          </ul>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
